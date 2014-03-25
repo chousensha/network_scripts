@@ -1,0 +1,29 @@
+Collection of small scripts that I made for learning purposes or accomplishing some tasks. 
+
+DEMO
+
+./dnsquery.py twitter.com A
+Address for twitter.com is 199.16.156.38
+Address for twitter.com is 199.16.156.70
+Address for twitter.com is 199.16.156.102
+Query completed at Tue Mar 25 12:40:28 2014
+
+./dnsquery.py wikipedia.com AAAA
+IPv6 address for wikipedia.com is 2620:0:861:ed1a::1
+Query completed at Tue Mar 25 12:49:28 2014
+
+./dnsquery.py wikipedia.com MX
+Mail server at lists.wikimedia.org. preference: 50
+Mail server at mchenry.wikimedia.org. preference: 10
+Query completed at Tue Mar 25 12:50:29 2014
+
+./dnsquery.py yahoo.com NS
+DNS server for yahoo.com domain: ns3.yahoo.com.
+DNS server for yahoo.com domain: ns4.yahoo.com.
+DNS server for yahoo.com domain: ns2.yahoo.com.
+DNS server for yahoo.com domain: ns1.yahoo.com.
+DNS server for yahoo.com domain: ns6.yahoo.com.
+DNS server for yahoo.com domain: ns5.yahoo.com.
+Query completed at Tue Mar 25 12:51:06 2014
+
+
