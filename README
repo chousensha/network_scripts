@@ -26,4 +26,20 @@ DNS server for yahoo.com domain: ns6.yahoo.com.
 DNS server for yahoo.com domain: ns5.yahoo.com.
 Query completed at Tue Mar 25 12:51:06 2014
 
+#############################################################
+Server listens on a port and displays a banner read from a file to every client that
+connects to it. Data received from clients is logged to a file
+
+./honeypot.py -f banner.txt -p 5555
+Listening on port 5555 on 2014-04-10 10:21
+[2014-04-10 10:21] Connection received from 192.168.127.133:52379
+Received from 192.168.127.133: I'm the first client
+
+[2014-04-10 10:21] Connection received from 192.168.127.130:59013
+Received from 192.168.127.130: And I'm the second
+
+Received from 192.168.127.130: blabla
+
+Received from 192.168.127.130: bye
+
 
