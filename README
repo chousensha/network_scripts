@@ -1,6 +1,13 @@
-Collection of small scripts that I made for learning purposes or accomplishing some tasks. 
+Collection of network related scripts. 
 
 DEMO
+
+
+#############################################################
+dnsquery
+
+Perform DNS lookups using Python.
+#############################################################
 
 ./dnsquery.py twitter.com A
 Address for twitter.com is 199.16.156.38
@@ -27,8 +34,13 @@ DNS server for yahoo.com domain: ns5.yahoo.com.
 Query completed at Tue Mar 25 12:51:06 2014
 
 #############################################################
+honeypot
+
+Simple honeypot server using the socket module.
+
 Server listens on a port and displays a banner read from a file to every client that
 connects to it. Data received from clients is logged to a file
+#############################################################
 
 ./honeypot.py -f banner.txt -p 5555
 Listening on port 5555 on 2014-04-10 10:21
